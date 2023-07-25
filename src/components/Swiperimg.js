@@ -32,10 +32,10 @@ function Swiperlist() {
             }}
             initial="hidden" animate={mainControls} transition={{ duration: 0.5, delay: 0.25 }}
         >
-            <div className="flex flex-col mx-12   overflow-hidden  h-[50rem] w-[90vw] lg:flex-row">
+            <div className="flex flex-col mx-auto lg:mx-12   overflow-hidden  lg:h-[50rem] w-[90vw] lg:flex-row">
                 <Swiper
 
-                    style={{ width: "200%" }}
+                    style={{ width: "100%" }}
                     slidesPerView={1}
                     spaceBetween={200}
                     // cssMode={true}
