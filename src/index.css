@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img,
+video {
+  max-width: 80%;
+  height: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "MyFont";
+  /* src: local("MyFont"), url(./assets/AutumnFlowers-9YVZK.otf) format("otf"); */
+  /* src: url(./assets/AnandaBlackPersonalUseRegular-rg9Rx.ttf); */
+  /* src: url(./assets/Hatficeld-WyEwv.otf); */
+  /* src: url(./assets/Sanfford-MVPDw.otf); */
+  /* src: url(./assets/ShillowDemo-1GW0M.otf); */
+  src: url(./assets/CarenyRegular-GO27Z.ttf);
+}
+@font-face {
+  font-family: "YouFont";
+  /* src: local("MyFont"), url(./assets/AutumnFlowers-9YVZK.otf) format("otf"); */
+  /* src: url(./assets/AnandaBlackPersonalUseRegular-rg9Rx.ttf); */
+  /* src: url(./assets/Hatficeld-WyEwv.otf); */
+  /* src: url(./assets/Sanfford-MVPDw.otf); */
+  /* src: url(./assets/ShillowDemo-1GW0M.otf); */
+  src: url(./assets/PlayfairDisplayRegular-ywLOY.ttf);
+  /* src: url(./assets/Ronysiswadi15-51Dv8.ttf); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "MyFont";
+  /* font-size: 4rem; */
+  /* font-weight: 600;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; */
+}
+
+p {
+  font-family: "YouFont";
+  /* font-size: 2rem; */
 }
